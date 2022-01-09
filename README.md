@@ -10,7 +10,7 @@ Sistema de Livraria desenvolvido em 2018 como parte da disciplina de Programaç�
     - void cadastrarLivro();
     - void reajustarPreco(float reajuste);
 
-#### 2. O nosso objeto Livro faz parte de outra classe chamada Livraria, que deve possuir funcionalidades que ajudem aos usuários e funcionários nos processos de manipulação dos livros. Para criar a classe Livraria siga os passos abaixo:
+#### 2. O nosso objeto Livro faz parte de uma classe chamada Livraria, que deve possuir funcionalidades para ajudar aos usuários e funcionários nos processos de manipulação dos livros. Para criar a classe Livraria, siga os passos abaixo:
   - Essa classe possui os seguintes atributos: nome, dono e livros. Esse último deve guardar todos os livros da livraria. Portanto, ele deve ser declarado como vetor (o número     máximo de livros da livraria será passado no construtor da classe Livraria)
   - O construtor deve receber o número máximo de livros, inicializar o nome como “Livraria Arapiraca” e o dono como “IFAL”
   - Crie outro construtor, que deve receber apenas o nome da livraria e do dono. Nesse caso, o tamanho do vetor deve ser 10
